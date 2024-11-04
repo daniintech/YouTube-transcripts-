@@ -3,7 +3,7 @@ import os
 
 #converts csv files into txt files using only the transcript data (metadata is discarded)
 #path from which the csv file(s) should be used. txt files will be saved in same path
-path1 = 'C:/Users/jawie/Documents/Uni/Bachelor/R_stylo/csv_to_txt_einzelne_Youtuber/whatever_one_transcript_per_youtuber'
+path1 = ''
 files = os.listdir(path1)
 
 for file in files:
