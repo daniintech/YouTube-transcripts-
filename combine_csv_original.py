@@ -3,8 +3,9 @@ import pandas as pd
 
 #combines all csv-files from folder_path into one, with a new name
 #the new csv file is stored in the same path
-folder_path = 'C:/Users/jawie/Documents/Uni/Bachelor/R_stylo/csv_to_txt_einzelne_Youtuber/whatever'
-name_for_new_csv = 'whateverCZ'
+#folder_path & name_for_new_csv need to be specified 
+folder_path = ''
+name_for_new_csv = ''
 
 all_files = os.listdir(folder_path)
 
